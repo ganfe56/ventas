@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forma de Pago</title>
+  <link rel="stylesheet" href="formadepago.css">
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo-background">
+      <h1>Forma de Pago</h1>
+    </div>
+    <nav class="navbar">
+      <a href="index.html>Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="carrito.html">Carrito</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="checkout-summary">
+      <h2>Resumen de la Compra</h2>
+      <div id="cart-items">
+        <!-- Productos del carrito se mostrarán aquí -->
+      </div>
+      <h3>Total: <span id="total-price">$0.00</span></h3>
+      <a href="https://www.paypal.com/mx/home" class="cta-btn">pagar</a>
+    </section>
+
+    <section class="paypal-button">
+      <h2>Completar el Pago</h2>
+      <div id="paypal-button-container"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="pago.js"></script>
+</body>
+</html>

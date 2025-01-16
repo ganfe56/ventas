@@ -1,0 +1,124 @@
+/* General */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  color: #5A189A;
+}
+
+/* Header */
+.header {
+  background-color: #240046;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-background {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(to bottom, #240046, #000000);
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #0f3460;
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+}
+
+.catalog {
+  text-align: center;
+}
+
+.catalog h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #3C096C;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product h3 {
+  font-size: 1.2rem;
+  color: #240046;
+}
+
+.product p {
+  color: #555;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.product a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  background-color: #240046;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.product a:hover {
+  background-color: #1a1a2e;
+}
+
+/* Footer */
+.footer {
+  background-color: #240046;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}

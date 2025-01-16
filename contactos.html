@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contactos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            font-size: 24px;
+            color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin: 50px auto;
+            max-width: 800px;
+        }
+
+        .contact-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            border: none;
+            border-radius: 10px;
+            padding: 15px;
+            width: 100%;
+            max-width: 300px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .contact-button img {
+            width: 20%;
+            max-width: 50px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .contact-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+        }
+
+        .contact-info {
+            background-color: #2a2a2a;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            max-width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .contact-info img {
+            width: 20%;
+            max-width: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Tecnology The Primary Innavation
+        <a href="index.html">regresar</a>
+    </header>
+    <div class="container">
+        <a href="https://www.facebook.com/profile.php?id=61569838131188&mibextid=ZbWKwL" class="contact-button" target="_blank">
+            <img src="C:\Users\FEC.56B\Desktop\empresa3\fotos contacto\th.jpeg" alt="Facebook">
+            Visítanos en Facebook
+        </a>
+        <div class="contact-info">
+            <img src="C:\Users\FEC.56B\Desktop\empresa3\fotos contacto\th (1).jpeg"  alt="WhatsApp">
+            <p>Contáctanos por WhatsApp: +52 1 55 1179 9604</p>
+        </div>
+        <a href="https://www.instagram.com/tecnologytheprimaryinnavation/profilecard/?igsh=MW5qanAwdWRxaXVtcw==" class="contact-button" target="_blank">
+            <img src="C:\Users\FEC.56B\Desktop\empresa3\fotos contacto\Imagen de WhatsApp 2024-12-15 a las 23.47.51_61987d46.jpg" alt="Instagram">
+            Encuéntranos en Instagram
+        </a>
+    </div>
+</body>
+</html>

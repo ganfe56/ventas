@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlRS3iDe02AbNYNyxQdxw537yfAvs6VwWqWdA7gfPgbWvTSmL43I7cZ8ry2K90jE98JCk&usqp=CAU); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(103, 33, 168, 0.5); /* Fondo oscuro para el encabezado */
+    color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(148, 6, 141, 0.781);
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #240046;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    color: #240046;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para mejorar la visibilidad del texto */
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #240046;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #9D4EDD;
+}
+
+/* Productos Destacados */
+.featured-products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.featured-products h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.product-card p {
+    font-size: 1.2em;
+    color: #9D4EDD;
+    margin-bottom: 20px;
+}
+
+.product-card:hover {
+    transform: translateY(-10px); /* Efecto hover para un toque dinámico */
+}
+
+.product-card .cta-btn {
+    background-color: #800080;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Promociones */
+.promotions {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.promotions h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.promotions p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #240046;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilocontacto.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h2>Envíanos un mensaje</h2>
+            <form id="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" placeholder="Escribe tu correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+                <button type="submit" id="enviar">Enviar</button>
+            </form>
+        </section>
+        <section id="preview">
+            <h2>Vista Previa del Mensaje</h2>
+            <div id="preview-content">
+                <p><strong>Nombre:</strong> <span id="prev-nombre"></span></p>
+                <p><strong>Correo:</strong> <span id="prev-email"></span></p>
+                <p><strong>Mensaje:</strong> <span id="prev-mensaje"></span></p>
+            </div>
+        </section>
+        <footer>
+            <h3>Síguenos en nuestras redes sociales</h3>
+            <ul id="redes-sociales">
+                <!-- Aquí puedes configurar los enlaces a tus redes sociales -->
+                <!-- Ejemplo:
+                <li><a href="https://facebook.com/tuempresa" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/tuempresa" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com/tuempresa" target="_blank">Instagram</a></li>
+                -->
+                <li><a href="https://www.facebook.com/profile.php?id=61569838131188&mibextid=ZbWKwL" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/tuempresa" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/tecnologytheprimaryinnavation/profilecard/?igsh=MW5qanAwdWRxaXVtcw== " target="_blank">Instagram</a></li>
+            </ul>
+        </footer>
+    </main>
+    <script src="contacto.js"></script>
+</body>
+</html>

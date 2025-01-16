@@ -1,0 +1,62 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.checkout-summary {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.paypal-button {
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+width:100%;
+}
